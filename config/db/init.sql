@@ -1,0 +1,3 @@
+CREATE EXTENSION unaccent;
+CREATE EXTENSION intarray;
+-- CREATE EXTENSION postgis;
