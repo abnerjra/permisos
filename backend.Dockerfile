@@ -56,7 +56,6 @@ RUN composer install --no-ansi --no-dev --no-interaction --no-progress --optimiz
 
 # Copiamos todos los archivos de la carpeta actual de nuestra
 COPY ./backend .
-# COPY --chown=admin:admin ./backend .
 
 # Exponemos el puerto 9000 a la network
 EXPOSE 9000
